@@ -25,6 +25,7 @@ public class Singelton implements Cloneable{
 		Object object = singelton.clone();
 		System.out.println(object.hashCode());
 		System.out.println(singelton.hashCode());
+		System.out.println("Singleton Design Pattern");
 	}
 
 }
